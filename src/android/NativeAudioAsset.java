@@ -92,10 +92,10 @@ public class NativeAudioAsset
 	
 	public void setVolume(float volume)
 	{
-		for (int x = 0; x < voices.size(); x++)
+		/*for (int x = 0; x < voices.size(); x++)
 		{
 			NativeAudioAssetComplex voice = voices.get(x);
 			voice.setVolume(volume);
-		}
+		}*/
 	}
 }
