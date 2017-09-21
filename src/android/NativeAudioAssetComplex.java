@@ -62,12 +62,12 @@ public class NativeAudioAssetComplex implements OnPreparedListener, OnCompletion
 			state = (loop ? PENDING_LOOP : PENDING_PLAY);
 			onPrepared( mp );
 		}
-		else if ( !playing )
+		/*else if ( !playing )
 		{
 			state = (loop ? PENDING_LOOP : PENDING_PLAY);
 			mp.setLooping(loop);
 			mp.start();
-		}
+		}*/
 	}
 
 	public boolean pause()
